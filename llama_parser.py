@@ -13,6 +13,7 @@ parser = LlamaParse(
     base_url="https://api.cloud.eu.llamaindex.ai",  # <-- protocol included!
     verbose=True,
     language="en",
+    premium_mode=True,  # Use premium mode for better table structure
 )
 
 def parse_pdf_with_llama(pdf_path):
